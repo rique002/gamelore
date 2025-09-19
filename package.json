@@ -1,0 +1,15 @@
+{
+  "name": "gamelore",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build:backend": "npm run build -w backend",
+    "start:backend": "npm run start -w backend",
+    "lint:backend": "npm run lint -w backend",
+    "prepare": "husky"
+  }
+}

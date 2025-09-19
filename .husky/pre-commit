@@ -1,0 +1,5 @@
+npm run test:run -w backend
+
+npm run type-check -w backend
+
+npx lint-staged
